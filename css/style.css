@@ -1,0 +1,194 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+    
+}
+.row{
+    width: 100%;
+    float: :left;
+}
+.header{
+    width: 100%;
+    float:left
+    padding: 15px 0px;
+}
+
+.header .col-6{
+    width: 50%;
+    height: 400px;
+    float:left;
+    background: transparent;
+}
+
+.header .left{
+    background: #015761;
+}
+.header .right{
+    background: transparent;
+}
+
+.header .left h5{
+    color: rgb(231, 231, 81);
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.menu{
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 0px;
+}
+.menu li a{
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 0px 0px 0px 5px;
+    color: white;
+}
+.menu li a:hover{
+    color: yellowgreen;
+}
+.header h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(231, 231, 81);
+    text-align: center;
+    margin-top: 65px;
+}
+.header p{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    margin-top: 25px ;
+}
+.header p span{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+ .about{
+     width: 100%;
+    background:rgb(236, 235, 235);
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.about-section h2{
+    color: #015761;
+    font-size: 30px;
+    line-height: 80px;
+    font-weight: 700;
+    padding: 15px;
+    margin-top: 80px;
+}
+.about-section p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.about-section .btn{
+    background:  rgb(231, 231, 81);
+    height: 40px;
+    margin: 20px;
+}
+.showreel-section{
+    width: 100%;
+}
+.showreel-section h1{
+    text-align: center;
+    color: #015761 ;
+    font-size: 40px;
+    padding: 40px;
+}
+.photos-section{
+    width: 100%;
+    float: left;
+}
+.photos-section h1{
+    text-align: center;
+    color: #015761 ;
+    font-size: 40px;
+    padding: 40px;
+
+}
+.contact-section{
+    width: 100%;
+    float: left;
+}
+.contact-section .col-6{
+    width: 50%;
+    height: 600px;
+    float:left;
+    background: transparent;
+}
+.contact-section .pic{
+    height: 400px;
+    width: 50%;
+    float: left;
+}
+.contact-section .contact{
+    height: 500px;
+    width: 50%;
+    background:  #015761 ;
+    float: left;
+}
+.contact-section h3{
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(231, 231, 81);
+    text-align: center;
+    margin-top: 55px;
+
+}
+
+.contact-section h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.contact-section p{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+/* footer-section start */
+.footer-section{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    background: white;
+    text-align: center;
+}
+.footer-section p{
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+}
+.footer-section p a{
+    text-transform: uppercase;
+    color: teal;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+/* footer-section end */
